@@ -139,5 +139,136 @@
     background-color: lavenderblush;
 }
 
+/* For screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+    .banner-image {
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner-section {
+        flex-direction: column;
+    }
+
+    .nav-section {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin-top: 20px;
+    }
+
+    .aboutMe-sction {
+        margin: 10px;
+    }
+
+    .p {
+        width: auto;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .about-sub-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-details div {
+        margin: 10px 0;
+    }
+
+    .resume-columns {
+        flex-direction: column;
+    }
+
+    .left-column,
+    .right-column {
+        padding: 0;
+    }
+
+    .resume-rows > div h4 {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .footer-color {
+        padding: 20px 0;
+    }
+}
+
+/* For screens smaller than 480px (mobile devices) */
+@media (max-width: 480px) {
+    .nav-section h1 {
+        font-size: 24px;
+    }
+
+    .aboutMe-sction h1 {
+        font-size: 24px;
+    }
+
+    .centered h1 {
+        font-size: 24px;
+    }
+
+    .centered h2 {
+        font-size: 20px;
+    }
+
+    .centered p {
+        font-size: 14px;
+    }
+
+    .nav-single {
+        margin-right: 10px;
+    }
+
+    .nav-link {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link a {
+        margin: 5px 0;
+    }
+
+    .about-sub-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-sub-section div {
+        margin: 5px 0;
+    }
+
+    .image-details div {
+        margin: 10px 0;
+    }
+
+    .resume-columns {
+        flex-direction: column;
+    }
+
+    .left-column,
+    .right-column {
+        padding: 0;
+    }
+
+    .resume-rows > div h4 {
+        margin: 10px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .footer-color {
+        padding: 20px 0;
+    }
+}
+
  
 
