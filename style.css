@@ -140,7 +140,8 @@
 }
 
 /* For screens smaller than 768px (tablets) */
-@media (max-width: 768px) {
+@media (max-width: 768px)
+{
     .banner-image {
         height: auto;
         width: 100%;
@@ -200,7 +201,11 @@
     .footer-color {
         padding: 20px 0;
     }
-}
+} 
+
+
+
+
 
 /* For screens smaller than 480px (mobile devices) */
 @media (max-width: 480px) {
